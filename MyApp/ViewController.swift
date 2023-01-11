@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//class ViewController: UIViewController {
+class ViewController : UITableViewController {
     
     var pictures = [String]()  // esse array de strings será criado quando a tela do ViewController for criada e vai existir enquando a tela também existir
 
@@ -22,13 +23,26 @@ class ViewController: UIViewController {
         
         for item in items
         {
-            if item.hasPrefix("nssl")  // encontra os arquivos que começam com "nssl"
+//            if item.hasPrefix("nssl")   // encontra os arquivos que começam com "nssl"
+            if item.hasPrefix("Aber")
             {
                 // se chegou aqui é pq this is a picture to load!
                 pictures.append(item) //
             }
         }
         print(pictures)
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return pictures.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Imagem", for: indexPath)
+        cell.textLabel?.text = pictures[indexPath.row]
+        return cell
     }
     
 
