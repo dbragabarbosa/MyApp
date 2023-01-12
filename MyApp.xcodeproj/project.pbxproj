@@ -15,6 +15,7 @@
 		ED144AC6296C3BC9006BA532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED144AC4296C3BC9006BA532 /* LaunchScreen.storyboard */; };
 		EDB644CC296EDD88000C9AD4 /* Abertura193.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB644CB296EDD88000C9AD4 /* Abertura193.jpg */; };
 		EDB644D0296EDEDF000C9AD4 /* AberIMG_4924.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB644CF296EDEDF000C9AD4 /* AberIMG_4924.jpg */; };
+		EDCE029529709BA300EA599C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE029429709BA300EA599C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ED144AC7296C3BC9006BA532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB644CB296EDD88000C9AD4 /* Abertura193.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Abertura193.jpg; sourceTree = "<group>"; };
 		EDB644CF296EDEDF000C9AD4 /* AberIMG_4924.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AberIMG_4924.jpg; sourceTree = "<group>"; };
+		EDCE029429709BA300EA599C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ED144AB9296C3BC8006BA532 /* AppDelegate.swift */,
 				ED144ABB296C3BC8006BA532 /* SceneDelegate.swift */,
 				ED144ABD296C3BC8006BA532 /* ViewController.swift */,
+				EDCE029429709BA300EA599C /* DetailViewController.swift */,
 				ED144ABF296C3BC8006BA532 /* Main.storyboard */,
 				ED144AC2296C3BC9006BA532 /* Assets.xcassets */,
 				ED144AC4296C3BC9006BA532 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				ED144ABE296C3BC8006BA532 /* ViewController.swift in Sources */,
 				ED144ABA296C3BC8006BA532 /* AppDelegate.swift in Sources */,
 				ED144ABC296C3BC8006BA532 /* SceneDelegate.swift in Sources */,
+				EDCE029529709BA300EA599C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

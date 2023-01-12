@@ -9,6 +9,8 @@ import UIKit
 
 //class ViewController: UIViewController {
 class ViewController : UITableViewController {
+
+    var count = 0
     
     var pictures = [String]()  // esse array de strings será criado quando a tela do ViewController for criada e vai existir enquando a tela também existir
 
