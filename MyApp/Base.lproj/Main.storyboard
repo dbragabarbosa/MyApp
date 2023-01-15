@@ -54,14 +54,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7e4-k7-TaF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7e4-k7-TaF">
                                 <rect key="frame" x="16" y="243" width="361" height="366"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IIx-yk-fTI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7e4-k7-TaF" firstAttribute="trailing" secondItem="2eb-0S-qL9" secondAttribute="trailingMargin" id="C71-DE-5wJ"/>
+                            <constraint firstItem="7e4-k7-TaF" firstAttribute="centerY" secondItem="2eb-0S-qL9" secondAttribute="centerY" id="R6J-3y-fY8"/>
+                            <constraint firstItem="7e4-k7-TaF" firstAttribute="leading" secondItem="2eb-0S-qL9" secondAttribute="leadingMargin" id="hIe-Qj-FCx"/>
+                            <constraint firstItem="7e4-k7-TaF" firstAttribute="top" secondItem="IIx-yk-fTI" secondAttribute="top" constant="184" id="oRI-dK-RTi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="7e4-k7-TaF" id="ZV9-f1-SGx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jqA-bA-Yer" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
