@@ -7,14 +7,23 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController
+{
 
     @IBOutlet var imageView: UIImageView!
     
-    override func viewDidLoad() {
+    var selectedImage: String?
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if let imageToLoad = selectedImage
+        {
+            imageView.image = UIImage(named: imageToLoad)  // carrega a imagem selecionada em uma nova tela
+        }
     }
     
 
