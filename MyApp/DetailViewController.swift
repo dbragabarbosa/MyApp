@@ -14,6 +14,9 @@ class DetailViewController: UIViewController
     
     var selectedImage: String?
     
+    var numImagemSelecionada = 0
+    var numTotalDeImagens = 0
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -22,6 +25,7 @@ class DetailViewController: UIViewController
         
 //        title = "Minha foto"
         title = selectedImage
+//        title = "Imagem \(numImagemSelecionada) de \(numTotalDeImagens)"
         
         navigationItem.largeTitleDisplayMode = .never
         
